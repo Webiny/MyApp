@@ -2,13 +2,8 @@
 Example app to show the basic structure of frontend and backend apps.
 
 1. Install Webiny project
-2. Clone this repo into `Apps/MyApp`
-3. Enable the app in `Configs/Base/Apps.yaml`:
-```
-Apps:
-    MyApp: true
-```
-4. In your project root, run `$ php Apps/Webiny/Php/Cli/install.php Local MyApp`
-5. Run development build using `webiny-cli`
-6. Navigate to `http://yourproject.app:8000/my-app` to se the frontend app
-7. In backend, enable the `Apartment Manager` role for your user. 
+2. Run `webiny-cli`
+3. Select `Install app from repo` and paste `git@github.com:Webiny/MyApp.git`
+4. Once the app is installed, run the development build. 
+5. Navigate to `http://yourproject.app:8000/my-app` to see the frontend app
+6. In the administration, enable the `Apartment Manager` role for your user to see the app in the menu. 
