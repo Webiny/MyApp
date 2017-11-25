@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Apartments",
+        "slug": "my-app-apartments",
+        "description": "Apartments",
+        "permissions": [
+            {
+                "classId": "MyApp.Entities.Apartment",
+                "rules": {
+                    "c": true,
+                    "r": true,
+                    "u": true,
+                    "d": true
+                }
+            }
+        ]
+    }
+]

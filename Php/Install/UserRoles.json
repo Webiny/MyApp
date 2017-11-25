@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Apartment Manager",
+        "slug": "my-app-apartment-manager",
+        "description": "Manage apartments",
+        "isAdminRole": true,
+        "permissions": [
+            "my-app-apartments"
+        ]
+    }
+]
